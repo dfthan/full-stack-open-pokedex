@@ -2,7 +2,8 @@ name: Timed health check
 
 on:
   schedule:
-    - cron: "21 * * * *"
+    # notify every xx:21, commented out to disable
+    # - cron: "21 * * * *"
 
 jobs:
   test_schedule:
